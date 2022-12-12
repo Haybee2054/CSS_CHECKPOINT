@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background: url("image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+nav{
+    display: inline;
+    text-align: right;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: White;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto", "sans-serif";
+}
+nav ul li a:hover{
+    transition: 0.4s;
+    color: blueviolet;
+}
+button{
+    border-radius: 30px;
+    border: none;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Roboto", "sans-serif";
+}
+button:hover {
+    color: blueviolet;
+    transition: 0.5s;
